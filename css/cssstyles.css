@@ -1,0 +1,94 @@
+/* TAGS */
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+  display: inline-block;
+}
+h1{
+  margin: 0 auto;
+}
+/* CLASS */
+
+  /*intro*/
+.titlesection-div{
+  background-color: #090514;
+  width: 100%;
+  height: 750px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.intropic{
+  display:block;
+  position: absolute;
+  width: 668px;
+  height: 668px;
+}
+.bluepillno{
+  margin-left: 48%;
+}
+.redpillyes{
+  margin-right:50%;
+}
+ /*hover effect*/
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 668px;
+  width:  668px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  margin: 0;
+}
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.intropic:hover .overlay{
+  opacity: 1;
+}
+  /*food types*/
+.foodtype{
+  position: relative;
+  background-color: #FFDEDE;
+  padding: 20px;
+}
+.foodtype-card{
+  height : 20%;
+  width : 25%;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+}
+.foodimage{
+  height: 100%;
+  width: 100%;
+}
+ /* About food*/
+.aboutfood{
+  padding:20px;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  background-color: #3E2C41;
+  color: #F3F2C9;
+}
+ /*credits*/
+ .credits{
+   text-align: center;
+
+ }
+/* ID */

@@ -1,0 +1,10 @@
+.Aclass{
+  display: inline-block;
+  margin: 50px;
+}
+ body{
+   text-align: center;
+ }
+a{
+  display: inline-block;
+}
